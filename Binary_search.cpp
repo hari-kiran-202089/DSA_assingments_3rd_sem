@@ -15,7 +15,7 @@ public:
     {
         delete[] arr;
     }
-    // Interative Binary search funcion
+    // Interative Binary search function
     int findI(int value)
     {
         cout << "Starting Interative Binary Search..." << endl;
