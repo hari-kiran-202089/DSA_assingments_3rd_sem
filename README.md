@@ -7,6 +7,7 @@ This repo will have all the programs written by me as a part of our Data Structu
 - Search an element in 2-D array using linear search
 - Binary Search using both iterative and recursive methods
 - Operations (+ , - , x ,Transpose) on Matrices
+- Quick sort algorithms using both iterative and recursive methods
 
 ## Note:
 
