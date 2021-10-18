@@ -28,7 +28,6 @@ void copyStr(string &strName, string str)
         tempStr += str[i];
     }
     strName = tempStr;
-    cout << endl;
 }
 // Function to combine two strings
 void concatenate(string &str1, string str2)
@@ -48,14 +47,15 @@ int main()
 {
     string str1, str2;
     int choice;
-    while (choice != 4)
+    while (choice != 5)
     {
         cout << endl;
         cout << "String Operations:" << endl
              << "1.Find Length" << endl
              << "2.Concatenate" << endl
              << "3.Reverse" << endl
-             << "4.Exit" << endl;
+             << "4.copy" << endl
+             << "5.Exit" << endl;
         cout << "Enter your choice: ";
         cin >> choice;
         cin.ignore(1, '\n'); // To ignore the "enter" key value that is stored in the input buffer
@@ -81,11 +81,18 @@ int main()
             cout << "Result: " << str1 << endl;
             break;
         case 4:
+            cout << "Enter a string: ";
+            getline(cin, str1);
+            copyStr(str2, str1);
+            cout << "Copied string: " << str2 << endl;
+            break;
+        case 5:
             break;
         default:
             cout << "Enter a valid choice..." << endl;
         }
     }
+    cout << "See you soon =)" << endl;
 
     return 0;
 }
