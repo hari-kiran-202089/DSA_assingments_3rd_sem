@@ -8,6 +8,7 @@ This repo will have all the programs written by me as a part of our Data Structu
 - Binary Search using both iterative and recursive methods
 - Operations (+ , - , x ,Transpose) on Matrices
 - Quick sort algorithms using both iterative and recursive methods
+- String Operations
 
 ## Note:
 
