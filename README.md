@@ -10,6 +10,7 @@ This repo will have all the programs written by me as a part of our Data Structu
 - Quick sort algorithms using both iterative and recursive methods
 - String Operations
 - Swapping two variables (call by reference & call by value)
+- Operations On LinkedList (Insert,Delete,Update,Reverse,Pop,Append,Prepend)
 
 ## Note:
 
