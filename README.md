@@ -13,6 +13,7 @@ This repo will have all the programs written by me as a part of our Data Structu
 - Operations On LinkedList (Insert,Delete,Update,Reverse,Pop,Append,Prepend)
 - Compare Sorting and Searching Algorithms (Chrono Library)
 - Binary Tree Traversals (Preorder, Postorder, Inorder)
+- Convert Infix Expression into Postfix Expression using Stack
 
 ## Note:
 
